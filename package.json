@@ -28,11 +28,7 @@
     "testling": "^1.7.1",
     "travis-multirunner": "^3.0.0",
     "uglify-js": "^2.7.3",
-    "stupid-server": "^0.2.2",
-    "webrtc-adapter": "^4.0.0"
-  },
-  "peerDependencies": {
-    "webrtc-adapter": "^4.0.0"
+    "stupid-server": "^0.2.2"
   },
   "license": "MIT",
   "scripts": {
@@ -44,9 +40,5 @@
     "test-page": "echo \"open https://0.0.0.0:8443/test/\" && stupid-server -s -h 0.0.0.0",
     "test": "node test/selenium/index.js"
   },
-  "pre-commit": [
-    "lint",
-    "validate"
-  ],
   "false": {}
 }
